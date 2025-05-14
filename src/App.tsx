@@ -10,6 +10,7 @@ import Conclusion from './pages/Conclusion';
 import Upload from './pages/Upload';
 import Admin from './pages/Admin';
 import TeacherPage from './pages/Teacher';
+import TeacherExtension from './pages/TeacherExtension';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="upload" element={<Upload />} />
           <Route path="admin" element={<Admin />} />
           <Route path="teacher" element={<TeacherPage />} />
+          <Route path="teacher-extension" element={<TeacherExtension />} />
         </Route>
       </Routes>
     </BrowserRouter>
