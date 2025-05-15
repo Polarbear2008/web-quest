@@ -8,8 +8,14 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    }
   },
+  publicDir: 'public',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
