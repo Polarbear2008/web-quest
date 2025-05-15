@@ -46,13 +46,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2">
-              <Globe className="h-8 w-8 text-cyan-600" />
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-xl text-cyan-800">Climate Explorer</span>
-                <span className="text-xs text-gray-600">By Zukhra | GP teacher</span>
-              </div>
-            </div>
+            <Globe className="h-8 w-8 text-cyan-600" />
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl text-cyan-800">Climate Explorer</span>
               <span className="text-xs text-gray-600">By Zukhra | GP teacher</span>
