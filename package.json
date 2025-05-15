@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel-build": "npm run build",
+    "start": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.7",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.9.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
